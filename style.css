@@ -1,0 +1,75 @@
+/* === BailCheck v1 — Calm Blue Theme === */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F3F4F6; /* light grey background */
+  color: #1F2937; /* dark text */
+}
+
+header {
+  background-color: #3B82F6; /* calm blue */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.8em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 10px;
+}
+
+.next-checkin-card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.next-checkin-card h2 {
+  margin-bottom: 10px;
+}
+
+.next-checkin-card p {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+button {
+  background-color: #3B82F6; /* calm blue */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+  max-width: 200px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #2563EB; /* slightly darker blue on hover */
+}
+
+#camera-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#camera-preview {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 16px;
+}
+
+#capture-btn {
+  margin-top: 10px;
+}
